@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+ box-sizing: border-box;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+a {
+	display:inline-block;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.twitter {
+	background-image: url('img/twitter.png');
+}
+
+.twitter:hover {
+	background-image: url('img/twitter-hover.png');
+}
+
+.blogger {
+	background-image: url('img/blogger.png');	
+}
+
+.blogger:hover {
+	background-image: url('img/blogger-hover.png');
+}
+
+.facebook {
+	background-image: url('img/facebook.png');	
+}
+
+.facebook:hover {
+	background-image: url('img/facebook-hover.png');
+}
+
+.instagram {
+	background-image: url('img/instagram.png');	
+}
+
+.instagram:hover {
+	background-image: url('img/instagram-hover.png');
+}
+
+.pinterest {
+	background-image: url('img/pinterest.png');	
+}
+
+.pinterest:hover {
+	background-image: url('img/pinterest-hover.png');
+}
+
+.youtube {
+	background-image: url('img/youtube.png');	
+}
+
+.youtube:hover {
+	background-image: url('img/youtube-hover.png');
+}
+
+
+/* 
+ 
+Add your own custom icons here:
+
+.custom {
+	background-image: url('img/custom.png');	
+}
+
+.custom:hover {
+	background-image: url('img/custom-hover.png');
+}
+
+ */
