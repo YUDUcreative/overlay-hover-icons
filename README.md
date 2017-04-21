@@ -36,5 +36,5 @@ So for example if a Micheal Jackson icon is required:
 You can test it all works in the browser by viewing:
 
 ```
-index.html/url?http://www.yudu.com&type=mj
+index.html?url=http://www.yudu.com&type=mj
 ```
